@@ -46,3 +46,6 @@ group :development, :test do
   gem 'spring'
 end
 
+# Rails Simple form
+gem 'simple_form'
+
