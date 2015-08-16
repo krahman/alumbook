@@ -49,3 +49,6 @@ end
 # Rails Simple form
 gem 'simple_form'
 
+# Rails devise
+gem 'devise'
+
