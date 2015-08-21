@@ -31,11 +31,15 @@ class User < ActiveRecord::Base
   	unless friendship.any?
   		return "not_friends"
   	else
-  		if friendship.first.user == self
-  			return "pending"
+  		if friendship.first.state == "active"
+  			return "friends"
   		else
-  			return "requested"
-  		end
+	  		if friendship.first.user == self
+	  			return "pending"
+	  		else
+	  			return "requested"
+	  		end
+	  	end
   	end
   end
 
