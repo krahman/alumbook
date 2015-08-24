@@ -55,3 +55,6 @@ gem 'devise'
 # Rails gem for gravatar
 gem 'gravatarify', '~> 3.0.0'
 
+# Public Activity gem
+gem 'public_activity'
+
