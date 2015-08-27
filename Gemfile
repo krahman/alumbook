@@ -58,5 +58,3 @@ gem 'gravatarify', '~> 3.0.0'
 # Public Activity gem
 gem 'public_activity'
 
-gem 'auto_html'
-
